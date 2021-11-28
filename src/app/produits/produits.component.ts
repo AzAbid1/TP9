@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
-import { Produit } from 'src/app/model/produit';
+import { Produit } from '../produit';
 
 @Component({
   selector: 'app-produits',
@@ -18,7 +18,6 @@ export class ProduitsComponent implements OnInit {
       libelle:[''],
       prix:[]
     })
-
   }
 
 }
