@@ -1,0 +1,13 @@
+<div class="container">
+    <h3>Ajout d'un produit</h3>
+    <form [formGroup]="prodForm">
+        <label> Donnez le nom du produit</label>
+        <input class="form-control" type="text" formControlName="libelle"> <br>
+        <label> Donnez le prix du produit</label>
+        <input class="form-control"  type="number" formControlName="prix">
+        <button class= "btn btn-primary">Ajouter Produit</button>
+    </form>
+</div>
+
+<h3>Liste des produits</h3>
+{{lesproduits |json}}
