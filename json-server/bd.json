@@ -1,0 +1,54 @@
+{
+  "produits": [
+    {
+      "id": 1,
+      "libelle": "Stylo",
+      "prix": 0.4
+    },
+    {
+      "id": 2,
+      "libelle": "cartable",
+      "prix": 65.2
+    },
+    {
+      "libelle": "pc",
+      "prix": 1805,
+      "id": 3
+    },
+    {
+      "libelle": "imprimante",
+      "prix": 208.6,
+      "id": 4
+    },
+    {
+      "libelle": "imprimante",
+      "prix": 105.6,
+      "id": 5
+    },
+    {
+      "libelle": "stylo",
+      "prix": 0.8,
+      "id": 6
+    },
+    {
+      "libelle": "",
+      "prix": null,
+      "id": 7
+    },
+    {
+      "libelle": "",
+      "prix": null,
+      "id": 8
+    },
+    {
+      "libelle": "test",
+      "prix": 14,
+      "id": 9
+    },
+    {
+      "libelle": "test",
+      "prix": 14,
+      "id": 10
+    }
+  ]
+}
